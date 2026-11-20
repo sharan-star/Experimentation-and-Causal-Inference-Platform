@@ -1,0 +1,49 @@
+# Experimentation & Causal Inference Platform - Python dependencies
+# Tested on Python 3.10 (Windows / macOS / Linux).
+#   pip install -r requirements.txt
+#
+# Core data / stats stack
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+statsmodels==0.15.0
+scikit-learn==1.7.2
+
+# Plotting (used by the notebooks)
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# Bayesian A/B analysis (Milestone 5)
+pymc==5.25.1
+arviz==0.23.4
+
+# Causal inference (Milestone 6)
+dowhy==0.14
+econml==0.17.1
+causalml==0.15.5
+causaldata==0.1.5
+networkx==3.4.2
+graphviz==0.21
+
+# Dataset download (Cookie Cats / Hillstrom helpers)
+kagglehub==1.0.2
+requests==2.34.2
+
+# API service (Milestones 2-6)
+fastapi==0.162.5
+starlette==1.7.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.4
+python-multipart==0.0.32
+
+# Tests
+pytest==9.2.0
+httpx==0.28.1
+
+# Notebooks (EDA / training)
+jupyter==1.1.1
+jupyterlab==4.6.6
+notebook==7.6.5
+nbconvert==7.17.2
+ipykernel==7.3.0
+nbformat==5.11.1
